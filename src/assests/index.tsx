@@ -17,5 +17,6 @@ import photo0 from './photo.jpeg'
 import photo1 from './photo1.jpg'
 import photo5 from './photo5.jpeg'
 import photot6 from './photo6.jpeg'
+import art3 from './photo3.jpg'
 
-export {hall, hall1, hal2, hal3, hall4, wedding0, wedding1, wedding2, wedding3, wedding5, art1, art2, nav0, nav2, nav3, photo0, photo1, photo5, photot6}
+export {hall, hall1, hal2, hal3, hall4, wedding0, wedding1, wedding2, wedding3, wedding5, art1, art2, art3, nav0, nav2, nav3, photo0, photo1, photo5, photot6}

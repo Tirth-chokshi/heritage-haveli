@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-serif mb-4">Jash-Dwar Haveli</h3>
             <p className="text-gray-400">
-              Experience the grandeur of royal heritage in the heart of Rajasthan.
+              Experience the grandeur of royal heritage in the heart of Ahmedabad.
             </p>
           </div>
 

@@ -8,7 +8,7 @@ import Gallery from './components/Gallery';
 import Experiences from './components/Experiences';
 import Activities from './components/Activities';
 import Contact from './components/Contact';
-import { hal2, hal3, hall1, hall, wedding0, wedding1, wedding2, wedding3, wedding5, nav0, nav2, nav3, art1, art2, photo0, photo1, photo5, photot6 } from './assests';
+import { hal2, hal3, hall1, hall, wedding0, wedding1, wedding2, wedding3, wedding5, nav0, nav2, nav3, art1, art2, photo0, photo1, photo5, photot6, art3 } from './assests';
 import PhotographySection from './components/PhotographySection';
 
 const intimages = [
@@ -82,10 +82,6 @@ const navImages=[
     alt: "Photo 4"
   }
 ]
-const photoImages = [
-  
-]
-
 
 const artImages = [
   {
@@ -95,6 +91,10 @@ const artImages = [
   {
     src: art2,
     alt: "Art Piece 2"
+  },
+  {
+    src: art3,
+    alt: "Art Piece 3"
   }
 ]
 

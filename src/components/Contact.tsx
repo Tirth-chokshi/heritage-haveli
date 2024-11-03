@@ -40,7 +40,7 @@ const Contact = () => {
               <Phone className="w-6 h-6 text-amber-800 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                <p className="text-gray-600">+91 97370 88713</p>
+                <p className="text-gray-600">+91 9737088717</p>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">WhatsApp</h3>
                 <a 
-                  href="https://wa.me/9737088713" 
+                  href="https://wa.me/9737088717" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-amber-800 hover:text-amber-900 transition-colors"
@@ -63,7 +63,7 @@ const Contact = () => {
               <Mail className="w-6 h-6 text-amber-800 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                <p className="text-gray-600">info@jashdwarhaveli.com</p>
+                <p className="text-gray-600">drparthchokshi@gmail.com </p>
               </div>
             </div>
 
