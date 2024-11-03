@@ -8,6 +8,27 @@ import Gallery from './components/Gallery';
 import Experiences from './components/Experiences';
 import Activities from './components/Activities';
 import Contact from './components/Contact';
+import { hal2, hal3, hall1, hall } from './assests';
+import PhotographySection from './components/PhotographySection';
+const intimages = [
+  {
+    src: hall,
+    alt: "Palace Interior 1"
+  }, 
+  {
+    src: hall1,
+    alt: "Palace Interior 1"
+  }, 
+  {
+    src: hal2,
+    alt: "Palace Interior 1"
+  }, 
+  {
+    src: hal3,
+    alt: "Palace Interior 1"
+  }, 
+];
+
 
 function App() {
   return (
@@ -16,7 +37,10 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Gallery />
+        <Gallery images={intimages}  title = "Interior"  />
+        {/* <PhotographySection/> */}
+        {/* <Gallery images={images}  title = "Interior"  /> */}
+        {/* <Gallery images={images}  title = "Interior"  /> */}
         <Experiences />
         <Activities />
         <Contact />

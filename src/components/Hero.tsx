@@ -6,7 +6,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1590687755272-6a4e6ab90d7f?auto=format&fit=crop&q=80')",
+          backgroundImage: "url('https://www.gujarattourism.com/content/gujrattourism/en/accommodation/heritage-hotel/french-haveli/_jcr_content/root/responsivegrid/tourbanner.coreimg.jpeg/1580361706044/french-haveli2.jpeg')",
         }}
       >
         <div className="absolute inset-0 bg-black/40" />
