@@ -8,8 +8,9 @@ import Gallery from './components/Gallery';
 import Experiences from './components/Experiences';
 import Activities from './components/Activities';
 import Contact from './components/Contact';
-import { hal2, hal3, hall1, hall } from './assests';
+import { hal2, hal3, hall1, hall, wedding0, wedding1, wedding2, wedding3, wedding5, nav0, nav2, nav3, art1, art2, photo0, photo1, photo5, photot6 } from './assests';
 import PhotographySection from './components/PhotographySection';
+
 const intimages = [
   {
     src: hall,
@@ -28,6 +29,74 @@ const intimages = [
     alt: "Palace Interior 1"
   }, 
 ];
+const wedImages =[
+  {
+    src: wedding0,
+    alt: "Palace Interior 1"
+  },
+  {
+    src: wedding1,
+    alt: "Palace Interior 1"
+  },
+  {
+    src: wedding2,
+    alt: "Palace Interior 1"
+  },
+  {
+    src: wedding3,
+    alt: "Palace Interior 1"
+  },
+  {
+    src: wedding5,
+    alt: "Palace Interior 1"
+  }
+]
+
+const navImages=[
+  {
+    src: nav0,
+    alt: "Navratri Celebration 1"
+  },
+  {
+    src: nav2,
+    alt: "Navratri Celebration 2"
+  },
+  {
+    src: nav3,
+    alt: "Navratri Celebration 3"
+  },
+  {
+    src: photo0,
+    alt: "Photo 1"
+  },
+  {
+    src: photo1,
+    alt: "Photo 2"
+  },
+  {
+    src: photo5,
+    alt: "Photo 3"
+  },
+  {
+    src: photot6,
+    alt: "Photo 4"
+  }
+]
+const photoImages = [
+  
+]
+
+
+const artImages = [
+  {
+    src: art1,
+    alt: "Art Piece 1"
+  },
+  {
+    src: art2,
+    alt: "Art Piece 2"
+  }
+]
 
 
 function App() {
@@ -39,8 +108,9 @@ function App() {
         <About />
         <Gallery images={intimages}  title = "Interior"  />
         {/* <PhotographySection/> */}
-        {/* <Gallery images={images}  title = "Interior"  /> */}
-        {/* <Gallery images={images}  title = "Interior"  /> */}
+        <Gallery images={wedImages}  title = "Wedding Photoshoot"  />
+        <Gallery images={navImages}  title = "Navratri"  />
+        <Gallery images={artImages}  title = "ArtWorks"  />
         <Experiences />
         <Activities />
         <Contact />
