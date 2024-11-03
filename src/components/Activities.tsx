@@ -1,25 +1,22 @@
 import React from 'react';
-import { Calendar, Clock, Camera } from 'lucide-react';
+import { Calendar, Clock, Camera, Users } from 'lucide-react';
 
 const Activities = () => {
   const activities = [
     {
       icon: Calendar,
-      title: 'Heritage Walks',
-      description: 'Join our expert guides for an immersive tour of the haveli\'s history and architecture.',
-      schedule: 'Daily at 10 AM and 4 PM'
+      title: 'Heritage Visits',
+      description: 'Explore our haveli\'s rich cultural heritage through guided tours of its intricately carved halls, ornate chambers.',
     },
     {
       icon: Camera,
       title: 'Photography Sessions',
       description: 'Special access for pre-wedding shoots and professional photography.',
-      schedule: 'By appointment only'
     },
     {
-      icon: Clock,
-      title: 'Cultural Workshops',
-      description: 'Learn about traditional art, music, and crafts in our weekly workshops.',
-      schedule: 'Every Saturday at 11 AM'
+      icon: Users,
+      title: 'Festival Events',
+      description: 'Experience the vibrant festivals of India with our special events and celebrations.',
     }
   ];
 
@@ -42,7 +39,6 @@ const Activities = () => {
                 <Icon className="w-12 h-12 text-amber-800 mb-6" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">{activity.title}</h3>
                 <p className="text-gray-600 mb-4">{activity.description}</p>
-                <p className="text-sm text-amber-800 font-medium">{activity.schedule}</p>
               </div>
             );
           })}

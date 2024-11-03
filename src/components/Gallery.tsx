@@ -72,7 +72,7 @@ const Gallery = ({ images, title }: GalleryProps) => {
     <section className="bg-[#FFF2E1] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2 
-          className="text-4xl font-bold mb-8"
+          className="text-4xl font-serif  mb-8"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}

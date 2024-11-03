@@ -1,6 +1,14 @@
 import React from 'react';
 import { History, Building2 } from 'lucide-react';
-import { photo1, hal3 } from '../assests';
+import { hal3,photo1 } from '../assests';
+
+const HighlightedText = ({ children }) => (
+  <span className="relative inline-block group">
+    <span className="relative z-10 font-medium">{children}</span>
+    <span className="absolute bottom-0 left-0 w-full h-3 bg-amber-200/60 -rotate-2 group-hover:bg-amber-300/60 transition-all duration-300 transform group-hover:scale-110"></span>
+  </span>
+);
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-[#]">
@@ -18,9 +26,9 @@ const About = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Historical Significance</h3>
-                <p className="text-gray-600">
-                  Built in the 18th century, Jash-Dwar Haveli stands as a testament to the architectural brilliance of its time.
-                  Recognized as a Grade-3 heritage site, it showcases the perfect blend of Rajasthani and Mughal architecture.
+                <p className="text-gray-600 font-serif">
+                  Built in the <HighlightedText>19th</HighlightedText> century, Jash-Dwar Haveli stands as a testament to the architectural brilliance of its time.
+                  Recognized as a <HighlightedText>Grade-III</HighlightedText> heritage site, it showcases the perfect blend of Rajasthani and Gujarati architecture.
                 </p>
               </div>
             </div>
@@ -31,8 +39,8 @@ const About = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Architectural Marvel</h3>
-                <p className="text-gray-600">
-                  Every corner of the haveli tells a story through its intricate carvings, traditional jharokhas,
+                <p className="text-gray-600 font-serif">
+                  Every corner of the haveli tells a story through its intricate <HighlightedText>Carvings</HighlightedText>, traditional <HighlightedText>Jharokhas</HighlightedText>,
                   and stunning frescoes that have been carefully preserved through generations.
                 </p>
               </div>

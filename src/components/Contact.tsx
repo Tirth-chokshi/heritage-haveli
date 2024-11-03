@@ -16,23 +16,46 @@ const Contact = () => {
               <MapPin className="w-6 h-6 text-amber-800 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Location</h3>
-                <p className="text-gray-600">123 Heritage Lane, Jaipur, Rajasthan, India</p>
+                <p className="text-gray-600">1539, Jash-Dwar, Bhajgovind Vaid Ni Khadki, Sarangpur, Ahmedabad, Gujarat, India</p>
+              </div>
+            </div>
+            <div className="flex items-start space-x-4">
+              <Instagram className="w-6 h-6 text-amber-800 flex-shrink-0" />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Instagram</h3>
+                <a 
+                  href="https://www.instagram.com/jashdwar_haweli" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-amber-800 hover:text-amber-900 transition-colors"
+                >
+                  @jashdwar_haveli
+                </a>
               </div>
             </div>
 
-            <div className="flex items-start space-x-4">
-              <Clock className="w-6 h-6 text-amber-800 flex-shrink-0" />
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">Visiting Hours</h3>
-                <p className="text-gray-600">Daily: 9:00 AM - 6:00 PM</p>
-              </div>
-            </div>
+            
 
             <div className="flex items-start space-x-4">
               <Phone className="w-6 h-6 text-amber-800 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                <p className="text-gray-600">+91 123 456 7890</p>
+                <p className="text-gray-600">+91 97370 88713</p>
+              </div>
+            </div>
+
+            <div className="flex items-start space-x-4">
+              <MessageCircle className="w-6 h-6 text-amber-800 flex-shrink-0" />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">WhatsApp</h3>
+                <a 
+                  href="https://wa.me/9737088713" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-amber-800 hover:text-amber-900 transition-colors"
+                >
+                  Message us on WhatsApp
+                </a>
               </div>
             </div>
 
@@ -45,34 +68,14 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <Instagram className="w-6 h-6 text-amber-800 flex-shrink-0" />
+              <Clock className="w-6 h-6 text-amber-800 flex-shrink-0" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">Instagram</h3>
-                <a 
-                  href="https://instagram.com/jashdwarhaveli" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-amber-800 hover:text-amber-900 transition-colors"
-                >
-                  @jashdwarhaveli
-                </a>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Visiting Hours</h3>
+                <p className="text-gray-600">Contact for Schdule</p>
               </div>
             </div>
 
-            <div className="flex items-start space-x-4">
-              <MessageCircle className="w-6 h-6 text-amber-800 flex-shrink-0" />
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">WhatsApp</h3>
-                <a 
-                  href="https://wa.me/911234567890" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-amber-800 hover:text-amber-900 transition-colors"
-                >
-                  Message us on WhatsApp
-                </a>
-              </div>
-            </div>
+
           </div>
 
           <form className="space-y-6">
