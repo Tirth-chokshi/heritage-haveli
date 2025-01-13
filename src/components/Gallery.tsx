@@ -8,9 +8,10 @@ interface GalleryProps {
     alt: string;
   }[];
   title?: string;
+  id: string;
 }
 
-const Gallery = ({ images, title }: GalleryProps) => {
+const Gallery = ({ images, title, id }: GalleryProps) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const controls = useAnimationControls();
   const [currentX, setCurrentX] = useState(0);
@@ -69,7 +70,7 @@ const Gallery = ({ images, title }: GalleryProps) => {
   };
 
   return (
-    <section className="bg-[#FFF2E1] py-16">
+    <section id={id} className="bg-[#FFF2E1] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2 
           className="text-4xl font-serif  mb-8"

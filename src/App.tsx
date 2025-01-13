@@ -106,11 +106,11 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Gallery images={intimages}  title = "Interior"  />
+        <Gallery images={intimages} title="Interior" id="gallery" />
         {/* <PhotographySection/> */}
-        <Gallery images={wedImages}  title = "Wedding Photoshoot"  />
-        <Gallery images={navImages}  title = "Navratri"  />
-        <Gallery images={artImages}  title = "ArtWorks"  />
+        <Gallery images={wedImages} title="Wedding Photoshoot" id="wedding-gallery" />
+        <Gallery images={navImages} title="Navratri" id="navratri-gallery" />
+        <Gallery images={artImages} title="ArtWorks" id="art-gallery" />
         <Experiences />
         <Activities />
         <Contact />
